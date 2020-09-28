@@ -16,3 +16,6 @@ IOS 设备信息检测
 使用说明: 越狱设备安装后，在设置里面选择要注入的APP , 打开APP后双指长按，弹出窗口点击 设备环境信息
 
 ![avatar](./setting.jpeg)
+
+![avatar](./deviceInfo.png)
+
