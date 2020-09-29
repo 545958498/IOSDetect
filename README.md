@@ -1,10 +1,10 @@
 # IOSDetect
 
-<font size="4">IOS设备风控</font>
+<font size="8">IOS设备风控</font>
 
 HOOK检测，可以用来检测插件 HOOk了哪些系统函数, 或者测试越狱商店上那些所谓的越狱屏蔽插件的有效性。
 
-IOS 设备信息检测
+IOS 设备信息检测：应用安全 安全攻防 HOOK 越狱 重打包 patch 签名 注入
 
 1、越狱检测：jab字段,true为越狱 <br>
 2、重打包检测: sig字段:false 为重打包 <br>
