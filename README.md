@@ -6,8 +6,8 @@ HOOK检测，可以用来检测插件 HOOk了哪些系统函数, 或者测试越
 
 IOS 设备信息检测：应用安全 安全攻防 HOOK 越狱 重打包 patch 签名 注入
 
-1、越狱检测：jab字段,true为越狱 <br>
-2、重打包检测: sig字段:false 为重打包 <br>
+1、越狱检测：jab字段,不为空表示越狱 <br>
+2、重打包检测: cert字段:证书信息，查看是否为Apple证书 <br>
 3、inline hook检测 (详细)<br>
     cydiahook字段,数组每一项为一个模块中被HOOK的函数，function_name为被HOOK的函数列表，module_name为所属模块<br>
     数组最后一项为前面被HOOK后的函数的替换函数所在的模块<br>
